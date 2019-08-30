@@ -3,9 +3,9 @@ layout: post
 title: All I know about JavaScript functions
 date: 2019-08-30 08:21 +0100
 ---
-# All I know about JavaScript functions 
+# Almost all
 
-JavaScript is all about functions,  it should be called FunctionScript . Functions are just functions, a reusable piece of code. When we use them in cotext of object ( class ), we call them methods. We never call them routines in any case, please don't. 
+JavaScript is all about functions,  it should be called FunctionScript . Functions are just... functions, a reusable pieces of code. When we use them in cotext of object ( class ), we call them methods. We never call them routines in any case, please don't. 
 
 
 ## Simple function
@@ -198,6 +198,6 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjE2MTA1OSwtMTEwNzEyNDI2MiwxMj
-Q3MTIyMzQwXX0=
+eyJoaXN0b3J5IjpbNjAxMTA5OTM1LC0xMTA3MTI0MjYyLDEyND
+cxMjIzNDBdfQ==
 -->
