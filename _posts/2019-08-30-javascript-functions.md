@@ -9,7 +9,9 @@ JavaScript is all functions. It should be called FunctionScript because it's all
 
 
 ## Simple function
+Declaring simple function is straightforward in javascript. You don't need to call it main, you do not need a class around it. Just write a function declaration. 
 
+When that comes in all languages 
 
 
 ```javascript
@@ -196,5 +198,5 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjExNzIzODcsMTI0NzEyMjM0MF19
+eyJoaXN0b3J5IjpbLTE3OTMxOTI4MDYsMTI0NzEyMjM0MF19
 -->
