@@ -188,12 +188,8 @@ crateOfBeer.apply(this, [2,2])
 
 
 
-Next Episode: 
 
-* Callback 
-* Promises
-* Asynchonous functions
-* Generators
+
 
 
 
@@ -209,5 +205,5 @@ Next Episode
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2Nzc1NjM4Nl19
+eyJoaXN0b3J5IjpbMTI0NzEyMjM0MF19
 -->
