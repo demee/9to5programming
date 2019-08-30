@@ -1,7 +1,5 @@
 
-
-Next Episode: 
-
+This time I would like to to talk about handling ansychronous javascript. We all 
 * Callback 
 * Promises
 * Asynchonous functions
@@ -10,5 +8,5 @@ Next Episode:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1OTM0NTE2OF19
+eyJoaXN0b3J5IjpbLTEwODMzODE4NjRdfQ==
 -->
