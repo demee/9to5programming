@@ -196,17 +196,12 @@ Next Episode:
 * Generators
 
 
-Next Episode
 
-Symbols and Proxies 
 
 
 Next Episode
 
-Ember: 
 
-* Good ember vs Bad ember
-* Do and dont's in geneva
 
 
 
@@ -214,5 +209,5 @@ Ember:
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODU5NDk1OTBdfQ==
+eyJoaXN0b3J5IjpbMTM2Nzc1NjM4Nl19
 -->
