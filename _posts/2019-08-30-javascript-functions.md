@@ -5,7 +5,7 @@ date: 2019-08-30 08:21 +0100
 ---
 # All I know about JavaScript functions 
 
-JavaScript is all functions. It should be called FunctionScript, because it's all about functions.  Functions are just functions, some call them methods, never call them routines... :D 
+JavaScript is all functions. It should be called FunctionScript because it's all about functions.  Functions are just functions when we write them. When we us some call them methods, never call them routines... :D 
 
 ```javascript
 // Function declaration
@@ -138,7 +138,7 @@ let tg = tagGeneratorFactory();
 tg("http://images.com/image.png");
 ```
 
-Closures pitfals 
+Closures pitfalls 
 
 https://jsfiddle.net/demee/6ebsn9um/
 
@@ -205,5 +205,5 @@ Next Episode
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTIxNDUwODAsMTI0NzEyMjM0MF19
+eyJoaXN0b3J5IjpbMTkzNzA1OTczMSwxMjQ3MTIyMzQwXX0=
 -->
