@@ -5,7 +5,7 @@ date: 2019-08-30 08:21 +0100
 ---
 # All I know about JavaScript functions 
 
-JavaScript is all functions. It should be called FunctionScript because it's all about functions.  Functions are just functions when we write them. When we use them as object ( class ) members, we call them methods. We never call them rutines, please don't. 
+JavaScript is all functions. It should be called FunctionScript because it's all about functions.  Functions are just functions when we write them. When we use them as object ( class ) members, we call them methods. We never call them routines, please don't. 
 
 
 ```javascript
@@ -187,17 +187,7 @@ crateOfBeer.apply(this, [2,2])
 ```
 
 
-
-
-
-
-
-
-
-
-
-Next Episode
-
+Disclamer: there is more I
 
 
 
@@ -206,5 +196,5 @@ Next Episode
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTQ0OTgsMTI0NzEyMjM0MF19
+eyJoaXN0b3J5IjpbMTM2NTY4ODY3LDEyNDcxMjIzNDBdfQ==
 -->
