@@ -8,16 +8,20 @@ date: 2019-08-30 08:21 +0100
 JavaScript is all functions. It should be called FunctionScript because it's all about functions.  Functions are just functions when we write them. When we use them as object ( class ) members, we call them methods. We never call them routines, please don't. 
 
 
+## Simple function
+
+
+
 ```javascript
 // Function declaration
-function funnyFunction(parameter1, parameter2) {
+function functionName(parameter1, parameter2) {
     console.log(arguments.length);
 }
 
 //calling a function 
 let argument1 = 1; 
 let argument2 = 2; 
-funnyFunction(argument1, argument2)
+functionName(argument1, argument2)
 ```
 
 Writing function rules: 
@@ -187,14 +191,10 @@ crateOfBeer.apply(this, [2,2])
 ```
 
 
-Disclamer: there is more I
-
-
-
 
 
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTY4ODY3LDEyNDcxMjIzNDBdfQ==
+eyJoaXN0b3J5IjpbLTIxMjExNzIzODcsMTI0NzEyMjM0MF19
 -->
