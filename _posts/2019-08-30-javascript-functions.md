@@ -1,8 +1,8 @@
 ---
 layout: post
 title: javascript-functions
+date: 2019-08-30 08:21 +0100
 ---
-
 # All about JavaScript functions
 
 Javascript is all just functions. Fuctions are just functions, some call them methods, never call them rutines... :D 
