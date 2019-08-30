@@ -215,8 +215,7 @@ Next Episode
 * TDD, and why we *should* do it
 
 
-> Written with [StackEdit](https://stackedit.io/). Thanks ;)
-> Grammar check with [Grammarly](
+> Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjAwMzY3ODFdfQ==
+eyJoaXN0b3J5IjpbMTU5NzQ2OTk1OV19
 -->
