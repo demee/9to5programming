@@ -208,14 +208,11 @@ Ember:
 * Good ember vs Bad ember
 * Do and dont's in geneva
 
-Next Episode 
 
-* Unit testing
-* Good practices
-* TDD, and why we *should* do it
+
 
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzQ2OTk1OV19
+eyJoaXN0b3J5IjpbLTEzODU5NDk1OTBdfQ==
 -->
