@@ -185,12 +185,8 @@ crateOfBeer.call(this, 2, 2);
 crateOfBeer.apply(this, [2,2])
 ```
 
-Next Objects
 
-* Creating objects
-* Destroying objects
-* Manipulating objects
-* Memory optimizations and memory leaks
+
 
 Next Episode: 
 
@@ -219,3 +215,8 @@ Next Episode
 * TDD, and why we *should* do it
 
 
+> Written with [StackEdit](https://stackedit.io/). Thanks ;)
+> Grammar check with [Grammarly](
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExMjAwMzY3ODFdfQ==
+-->
