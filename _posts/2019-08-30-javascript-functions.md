@@ -1,11 +1,11 @@
 ---
 layout: post
-title: javascript-functions
+title: All I know about JavaScript functions
 date: 2019-08-30 08:21 +0100
 ---
-# All about JavaScript functions
+# All I know about JavaScript functions 
 
-Javascript is all just functions. Functions are just functions, some call them methods, never call them routines... :D 
+JavaScript is all functions. It should be called FunctionScript, because it's all about functions.  Functions are just functions, some call them methods, never call them routines... :D 
 
 ```javascript
 // Function declaration
@@ -205,5 +205,5 @@ Next Episode
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzEyMjM0MF19
+eyJoaXN0b3J5IjpbLTIxMTIxNDUwODAsMTI0NzEyMjM0MF19
 -->
