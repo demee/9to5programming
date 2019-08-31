@@ -27,9 +27,11 @@ functionName(argument1, argument2)
 ```
 
 There are few simple spacing rules when writing a function declaration in JavaScript. Two most important: 
+
 1. There should be **no** space after the name
 2. There should be a space after parenthesis, allways
 
+Those simple rules help us very quickly indentify if a function is named or anonymous. 
 ```javascript
 //                     never a space after name 
 //  statement   name  /  always spaces after ()
@@ -40,18 +42,15 @@ function functionName() {}
 Anonymous functions 
 
 ```javascript
-// Function expression
-//                                always a space
-//                               /   
-let noLongerAnonymous = function () {
-
-}
+//        always a space
+//       /   
+function () {/* ... code }
 ```
 
 But it can also get a name
 
 ```javascript
-let functionWithTwoNames = function actualFunctionName() {}
+let functionWithTwoNames = function () {}
 ```
 
 There is also function constructor
@@ -200,6 +199,6 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4OTgzNzU1MiwxOTEwNzIyNDA4LDYwMT
-EwOTkzNSwtMTEwNzEyNDI2MiwxMjQ3MTIyMzQwXX0=
+eyJoaXN0b3J5IjpbMjg2MDIxMjM2LDE5MTA3MjI0MDgsNjAxMT
+A5OTM1LC0xMTA3MTI0MjYyLDEyNDcxMjIzNDBdfQ==
 -->
