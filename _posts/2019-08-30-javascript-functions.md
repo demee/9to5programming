@@ -26,7 +26,10 @@ let argument2 = 2;
 functionName(argument1, argument2)
 ```
 
-There are few simple spacing rules when writing a function declaration in 
+There are few simple spacing rules when writing a function declaration in JavaScript. Two most important: 
+1. There should be **no** space after the name
+2. There should be a space after parenthesis, allways
+
 ```javascript
 //                     never a space after name 
 //  statement   name  /  always spaces after ()
@@ -197,6 +200,6 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDcyMjQwOCw2MDExMDk5MzUsLTExMD
-cxMjQyNjIsMTI0NzEyMjM0MF19
+eyJoaXN0b3J5IjpbMTM4OTgzNzU1MiwxOTEwNzIyNDA4LDYwMT
+EwOTkzNSwtMTEwNzEyNDI2MiwxMjQ3MTIyMzQwXX0=
 -->
