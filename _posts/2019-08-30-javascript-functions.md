@@ -39,12 +39,12 @@ Those simple rules help us very quickly indentify if a function is named or anon
 function functionName() {}
 ```
 
-Anonymous functions 
+Anonymous functions are simply functions without name, very useful in JavaScript .
 
 ```javascript
 //        always a space
 //       /   
-function () {/* ... code }
+function () {/* code */}
 ```
 
 But it can also get a name
@@ -199,6 +199,6 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2MDIxMjM2LDE5MTA3MjI0MDgsNjAxMT
+eyJoaXN0b3J5IjpbNjQxMTkwOTExLDE5MTA3MjI0MDgsNjAxMT
 A5OTM1LC0xMTA3MTI0MjYyLDEyNDcxMjIzNDBdfQ==
 -->
