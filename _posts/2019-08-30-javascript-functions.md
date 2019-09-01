@@ -40,7 +40,7 @@ Those simple rules help us very quickly indentify if a function is named or anon
 function functionName() {}
 ```
 
-Anonymous functions are simply functions without name, very useful in JavaScript when programming in functional way! 
+Anonymous functions are simply functions without name, very useful in JavaScript when programming in functional way. 
 
 ```javascript
 //        always a space
@@ -48,11 +48,15 @@ Anonymous functions are simply functions without name, very useful in JavaScript
 function () {/* code */}
 ```
 
-But it can also get a name
+Anonymous function can be assined to a variable, and therefore get a name as well. 
 
 ```javascript
 // Function expression
 let functionWithTwoNames = function () {}
+```
+Functions can be also named inside objects: 
+```javascript
+le
 ```
 
 There is also function constructor
@@ -201,7 +205,7 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDIzNzUyNjQsNjQxMTkwOTExLDE5MT
-A3MjI0MDgsNjAxMTA5OTM1LC0xMTA3MTI0MjYyLDEyNDcxMjIz
-NDBdfQ==
+eyJoaXN0b3J5IjpbLTg1MDQwNDIwNCw2NDExOTA5MTEsMTkxMD
+cyMjQwOCw2MDExMDk5MzUsLTExMDcxMjQyNjIsMTI0NzEyMjM0
+MF19
 -->
