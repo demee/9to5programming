@@ -80,7 +80,7 @@ sum(1, 2); // 3
 let sub = buildFunction('-');
 sub(2, 1); // 1
 ```
-
+## Function as 'classes'
 Functions are also constructors 
 
 ```javascript
@@ -220,7 +220,7 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQ2MDY1NTgsLTE3NjcxMzgxNTIsNj
-QxMTkwOTExLDE5MTA3MjI0MDgsNjAxMTA5OTM1LC0xMTA3MTI0
-MjYyLDEyNDcxMjIzNDBdfQ==
+eyJoaXN0b3J5IjpbNzU0NDU2ODMyLC0xMTE0NjA2NTU4LC0xNz
+Y3MTM4MTUyLDY0MTE5MDkxMSwxOTEwNzIyNDA4LDYwMTEwOTkz
+NSwtMTEwNzEyNDI2MiwxMjQ3MTIyMzQwXX0=
 -->
