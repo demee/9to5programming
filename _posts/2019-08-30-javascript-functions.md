@@ -56,7 +56,12 @@ let functionWithTwoNames = function () {}
 ```
 Functions can be also named inside objects: 
 ```javascript
-le
+let user = {
+	name: 'Joe',
+	printName: function () {
+		console.log(this.name);
+	}
+}
 ```
 
 There is also function constructor
@@ -205,7 +210,7 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDQwNDIwNCw2NDExOTA5MTEsMTkxMD
+eyJoaXN0b3J5IjpbLTY1NjAzNzc0Miw2NDExOTA5MTEsMTkxMD
 cyMjQwOCw2MDExMDk5MzUsLTExMDcxMjQyNjIsMTI0NzEyMjM0
 MF19
 -->
