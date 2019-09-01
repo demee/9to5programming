@@ -33,13 +33,14 @@ There are few simple spacing rules when writing a function declaration in JavaSc
 
 Those simple rules help us very quickly indentify if a function is named or anonymous. 
 ```javascript
+// Function declaration
 //                     never a space after name 
 //  statement   name  /  always spaces after ()
 // /           /     /  /
 function functionName() {}
 ```
 
-Anonymous functions are simply functions without name, very useful in JavaScript .
+Anonymous functions are simply functions without name, very useful in JavaScript when programming in functional way! 
 
 ```javascript
 //        always a space
@@ -50,6 +51,7 @@ function () {/* code */}
 But it can also get a name
 
 ```javascript
+// Function expression
 let functionWithTwoNames = function () {}
 ```
 
@@ -199,6 +201,7 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxMTkwOTExLDE5MTA3MjI0MDgsNjAxMT
-A5OTM1LC0xMTA3MTI0MjYyLDEyNDcxMjIzNDBdfQ==
+eyJoaXN0b3J5IjpbLTExNDIzNzUyNjQsNjQxMTkwOTExLDE5MT
+A3MjI0MDgsNjAxMTA5OTM1LC0xMTA3MTI0MjYyLDEyNDcxMjIz
+NDBdfQ==
 -->
