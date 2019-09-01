@@ -69,8 +69,16 @@ user.printName(); // 'Joe'
 There is also function constructor. This, yet another, way of creating function in javascript is useful for code generation. We can construct function body dynamically based on our program need and create a function on the fly. 
 
 ```javascript
-var sum = new Function('a', 'b', 'return a + b');
-sum(1, 2)
+let buildFunction = function (operation) {
+  let functionBody = `return a ${operation} b`;
+  return new Function('a', 'b', functionBody);
+}
+
+let sum = buildFunction('+')
+sum(1, 2); // 3
+
+let sub = buildFunction('-');
+sub(2, 1); // 1
 ```
 
 Functions are also constructors 
@@ -212,7 +220,7 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjcxMzgxNTIsNjQxMTkwOTExLDE5MT
-A3MjI0MDgsNjAxMTA5OTM1LC0xMTA3MTI0MjYyLDEyNDcxMjIz
-NDBdfQ==
+eyJoaXN0b3J5IjpbLTExMTQ2MDY1NTgsLTE3NjcxMzgxNTIsNj
+QxMTkwOTExLDE5MTA3MjI0MDgsNjAxMTA5OTM1LC0xMTA3MTI0
+MjYyLDEyNDcxMjIzNDBdfQ==
 -->
