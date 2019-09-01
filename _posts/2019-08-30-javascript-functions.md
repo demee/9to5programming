@@ -57,14 +57,16 @@ let functionWithTwoNames = function () {}
 Functions can be also named inside objects: 
 ```javascript
 let user = {
-	name: 'Joe',
-	printName: function () {
-		console.log(this.name);
-	}
+  name: 'Joe',
+  printName: function () {
+	console.log(this.name);
+  }
 }
+
+user.printName(); // 'Joe'
 ```
 
-There is also function constructor
+There is also function constructor. This, yet another, way of creating function in javascript is useful for code generation. We can construct function "
 
 ```javascript
 var sum = new Function('a', 'b', 'return a + b');
@@ -210,7 +212,7 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjAzNzc0Miw2NDExOTA5MTEsMTkxMD
-cyMjQwOCw2MDExMDk5MzUsLTExMDcxMjQyNjIsMTI0NzEyMjM0
-MF19
+eyJoaXN0b3J5IjpbLTIxMDY5ODY3MzgsNjQxMTkwOTExLDE5MT
+A3MjI0MDgsNjAxMTA5OTM1LC0xMTA3MTI0MjYyLDEyNDcxMjIz
+NDBdfQ==
 -->
