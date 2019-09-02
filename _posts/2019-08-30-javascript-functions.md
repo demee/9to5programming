@@ -82,6 +82,7 @@ sum(1, 2); // 3
 
 let sub = buildFunction('-');
 sub(2, 1); // 1
+```
 
 Real life example? Lodash templates generate functions that build strings out of templates using Function constructor. 
 ```
@@ -225,8 +226,8 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTg3MTY5NTgsLTIwMDI5ODE2OTIsNz
-U0NDU2ODMyLC0xMTE0NjA2NTU4LC0xNzY3MTM4MTUyLDY0MTE5
-MDkxMSwxOTEwNzIyNDA4LDYwMTEwOTkzNSwtMTEwNzEyNDI2Mi
-wxMjQ3MTIyMzQwXX0=
+eyJoaXN0b3J5IjpbMTU2OTAyNTk2NCwtMTYxODcxNjk1OCwtMj
+AwMjk4MTY5Miw3NTQ0NTY4MzIsLTExMTQ2MDY1NTgsLTE3Njcx
+MzgxNTIsNjQxMTkwOTExLDE5MTA3MjI0MDgsNjAxMTA5OTM1LC
+0xMTA3MTI0MjYyLDEyNDcxMjIzNDBdfQ==
 -->
