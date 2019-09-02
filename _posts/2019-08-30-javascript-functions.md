@@ -105,9 +105,7 @@ user.welcomeUser();
 user.welcomeUser //public 
 
 ``` 
-Using above method all class members assinged to `thi
-
-Can we have private functions? 
+Using above method all class members assinged to `this` are public. Can we have private functions? Yes we can. 
 
 ```javascript
 function Calculator(name) {
@@ -132,6 +130,8 @@ function Calculator(name) {
 let calc = new Calculator();
 
 calc.calculate(2, 2, '-')
+
+calc.sum(2, 2); //sum is not a function error
 ```
 
 Special functions?
@@ -227,7 +227,7 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDYyODk3NzAsNTk0MzAxMjA1LC0xNj
+eyJoaXN0b3J5IjpbLTIxMDQ4MDgxNTIsNTk0MzAxMjA1LC0xNj
 E4NzE2OTU4LC0yMDAyOTgxNjkyLDc1NDQ1NjgzMiwtMTExNDYw
 NjU1OCwtMTc2NzEzODE1Miw2NDExOTA5MTEsMTkxMDcyMjQwOC
 w2MDExMDk5MzUsLTExMDcxMjQyNjIsMTI0NzEyMjM0MF19
