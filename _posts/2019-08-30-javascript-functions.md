@@ -1,8 +1,9 @@
 ---
 layout: post
 title: All I know about JavaScript functions
-categories:  [javscript]  
+categories:  [javascript]
 tags:  [javascript, functions]
+excerpt: Amost all
 date: 2019-08-30 08:21 +0100
 ---
 # Almost all
@@ -224,8 +225,8 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjQ0NjY3NSwtMjAwMjk4MTY5Miw3NT
-Q0NTY4MzIsLTExMTQ2MDY1NTgsLTE3NjcxMzgxNTIsNjQxMTkw
-OTExLDE5MTA3MjI0MDgsNjAxMTA5OTM1LC0xMTA3MTI0MjYyLD
-EyNDcxMjIzNDBdfQ==
+eyJoaXN0b3J5IjpbLTE2MTg3MTY5NTgsLTIwMDI5ODE2OTIsNz
+U0NDU2ODMyLC0xMTE0NjA2NTU4LC0xNzY3MTM4MTUyLDY0MTE5
+MDkxMSwxOTEwNzIyNDA4LDYwMTEwOTkzNSwtMTEwNzEyNDI2Mi
+wxMjQ3MTIyMzQwXX0=
 -->
