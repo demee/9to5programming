@@ -133,8 +133,10 @@ calc.calculate(2, 2, '-')
 
 calc.sum(2, 2); //💥Boom 💀sum is not a function error 
 ```
-What we used above is a closure, it's a way in 
-Special functions?
+What we used above is a closure, it's a way in Javascript to encapsulate part of the code inside function so only subset of the program have acces to them. For the rest of the code those methods do not exist. 
+
+## Classes
+But but, javascript has `class` operator right? Why not use this. Well yes, that's what we would normaly do these days. But it's important to know
 
 ```javascript
 class User {
@@ -227,7 +229,7 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDAzNDQ4Miw1OTQzMDEyMDUsLTE2MT
+eyJoaXN0b3J5IjpbLTQyOTEwNjU3MSw1OTQzMDEyMDUsLTE2MT
 g3MTY5NTgsLTIwMDI5ODE2OTIsNzU0NDU2ODMyLC0xMTE0NjA2
 NTU4LC0xNzY3MTM4MTUyLDY0MTE5MDkxMSwxOTEwNzIyNDA4LD
 YwMTEwOTkzNSwtMTEwNzEyNDI2MiwxMjQ3MTIyMzQwXX0=
