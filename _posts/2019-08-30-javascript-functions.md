@@ -87,7 +87,7 @@ sub(2, 1); // 1
 Real life example? [Microtemplating](https://johnresig.com/blog/javascript-micro-templating/) described by John Reising author of jQuery. 
 ```
 ## Function as 'classes'
-Functions are also constructors 
+Functions are also constructors, 
 
 ```javascript
 function User(name) {
@@ -226,8 +226,8 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0MzAxMjA1LC0xNjE4NzE2OTU4LC0yMD
-AyOTgxNjkyLDc1NDQ1NjgzMiwtMTExNDYwNjU1OCwtMTc2NzEz
-ODE1Miw2NDExOTA5MTEsMTkxMDcyMjQwOCw2MDExMDk5MzUsLT
-ExMDcxMjQyNjIsMTI0NzEyMjM0MF19
+eyJoaXN0b3J5IjpbLTE1MjY4NjM4OTUsNTk0MzAxMjA1LC0xNj
+E4NzE2OTU4LC0yMDAyOTgxNjkyLDc1NDQ1NjgzMiwtMTExNDYw
+NjU1OCwtMTc2NzEzODE1Miw2NDExOTA5MTEsMTkxMDcyMjQwOC
+w2MDExMDk5MzUsLTExMDcxMjQyNjIsMTI0NzEyMjM0MF19
 -->
