@@ -1,57 +1,88 @@
 ---
 layout: post
-title: javascript-functions
+title: All I know about JavaScript functions
 date: 2019-08-30 08:21 +0100
 ---
-# All about JavaScript functions
+# Almost all
 
-Javascript is all just functions. Functions are just functions, some call them methods, never call them routines... :D 
+JavaScript is all about functions,  it should be called FunctionScript . Functions are just... functions, a reusable pieces of code. When we use them in cotext of object ( class ), we call them methods. We never call them routines in any case, please don't. 
+
+
+## Simple function
+Declaring simple function is straightforward in javascript. You don't need to call it main, you do not need a class around it. Just write a function declaration. 
+
+When that comes in all languages when we declare function, elements that we declare to be passed to such function are called parameters. When we call a function, whatever we pass a the time of calling, we call arguments. Why, I don't know... but if someone asks you on an interview it's better to know. 
+
 
 ```javascript
 // Function declaration
-function funnyFunction(parameter1, parameter2) {
+function functionName(parameter1, parameter2) {
     console.log(arguments.length);
 }
 
 //calling a function 
 let argument1 = 1; 
 let argument2 = 2; 
-funnyFunction(argument1, argument2)
+functionName(argument1, argument2)
 ```
 
-Writing function rules: 
+There are few simple spacing rules when writing a function declaration in JavaScript. Two most important: 
 
+1. There should be **no** space after the name
+2. There should be a space after parenthesis, allways
+
+Those simple rules help us very quickly indentify if a function is named or anonymous. 
 ```javascript
+// Function declaration
 //                     never a space after name 
 //  statement   name  /  always spaces after ()
 // /           /     /  /
 function functionName() {}
 ```
 
-Anonymous functions 
+Anonymous functions are simply functions without name, very useful in JavaScript when programming in functional way. 
+
+```javascript
+//        always a space
+//       /   
+function () {/* code */}
+```
+
+Anonymous function can be assined to a variable, and therefore get a name as well. 
 
 ```javascript
 // Function expression
-//                                always a space
-//                               /   
-let noLongerAnonymous = function () {
-
+let functionWithTwoNames = function () {}
+```
+Functions can be also named inside objects: 
+```javascript
+let user = {
+  name: 'Joe',
+  printName: function () {
+	console.log(this.name);
+  }
 }
+
+user.printName(); // 'Joe'
 ```
 
-But it can also get a name
+There is also function constructor. This, yet another, way of creating function in javascript is useful for code generation. We can construct function body dynamically based on our program need and create a function on the fly. 
 
 ```javascript
-let functionWithTwoNames = function actualFunctionName() {}
+let buildFunction = function (operation) {
+  let functionBody = `return a ${operation} b`;
+  return new Function('a', 'b', functionBody);
+}
+
+let sum = buildFunction('+')
+sum(1, 2); // 3
+
+let sub = buildFunction('-');
+sub(2, 1); // 1
+
+Real life example? Lodash templates generate functions that build strings out of templates using Function constructor. 
 ```
-
-There is also function constructor
-
-```javascript
-var sum = new Function('a', 'b', 'return a + b');
-sum(1, 2)
-```
-
+## Function as 'classes'
 Functions are also constructors 
 
 ```javascript
@@ -138,7 +169,7 @@ let tg = tagGeneratorFactory();
 tg("http://images.com/image.png");
 ```
 
-Closures pitfals 
+Closures pitfalls 
 
 https://jsfiddle.net/demee/6ebsn9um/
 
@@ -189,21 +220,10 @@ crateOfBeer.apply(this, [2,2])
 
 
 
-
-
-
-
-
-
-Next Episode
-
-
-
-
-
-
-
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzEyMjM0MF19
+eyJoaXN0b3J5IjpbLTIwMDI5ODE2OTIsNzU0NDU2ODMyLC0xMT
+E0NjA2NTU4LC0xNzY3MTM4MTUyLDY0MTE5MDkxMSwxOTEwNzIy
+NDA4LDYwMTEwOTkzNSwtMTEwNzEyNDI2MiwxMjQ3MTIyMzQwXX
+0=
 -->
