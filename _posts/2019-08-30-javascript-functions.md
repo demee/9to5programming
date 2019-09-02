@@ -84,7 +84,7 @@ let sub = buildFunction('-');
 sub(2, 1); // 1
 ```
 
-Real life example? Lodash templates generate functions that build strings out of templates using Function constructor. 
+Real life example? Lodash templates generate functions that build strings out of templates using Function constructor. That's very well described 
 ```
 ## Function as 'classes'
 Functions are also constructors 
@@ -226,8 +226,8 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTAyNTk2NCwtMTYxODcxNjk1OCwtMj
-AwMjk4MTY5Miw3NTQ0NTY4MzIsLTExMTQ2MDY1NTgsLTE3Njcx
-MzgxNTIsNjQxMTkwOTExLDE5MTA3MjI0MDgsNjAxMTA5OTM1LC
-0xMTA3MTI0MjYyLDEyNDcxMjIzNDBdfQ==
+eyJoaXN0b3J5IjpbLTE2MjM0MzA1MzIsLTE2MTg3MTY5NTgsLT
+IwMDI5ODE2OTIsNzU0NDU2ODMyLC0xMTE0NjA2NTU4LC0xNzY3
+MTM4MTUyLDY0MTE5MDkxMSwxOTEwNzIyNDA4LDYwMTEwOTkzNS
+wtMTEwNzEyNDI2MiwxMjQ3MTIyMzQwXX0=
 -->
