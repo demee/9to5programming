@@ -131,9 +131,9 @@ let calc = new Calculator();
 
 calc.calculate(2, 2, '-')
 
-calc.sum(2, 2); //sum is not a function error
+calc.sum(2, 2); //💥Boom 💀sum is not a function error 
 ```
-
+What we used above is a closure, it's a way in 
 Special functions?
 
 ```javascript
@@ -227,8 +227,8 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQ4MDgxNTIsNTk0MzAxMjA1LC0xNj
-E4NzE2OTU4LC0yMDAyOTgxNjkyLDc1NDQ1NjgzMiwtMTExNDYw
-NjU1OCwtMTc2NzEzODE1Miw2NDExOTA5MTEsMTkxMDcyMjQwOC
-w2MDExMDk5MzUsLTExMDcxMjQyNjIsMTI0NzEyMjM0MF19
+eyJoaXN0b3J5IjpbLTE2NDAzNDQ4Miw1OTQzMDEyMDUsLTE2MT
+g3MTY5NTgsLTIwMDI5ODE2OTIsNzU0NDU2ODMyLC0xMTE0NjA2
+NTU4LC0xNzY3MTM4MTUyLDY0MTE5MDkxMSwxOTEwNzIyNDA4LD
+YwMTEwOTkzNSwtMTEwNzEyNDI2MiwxMjQ3MTIyMzQwXX0=
 -->
