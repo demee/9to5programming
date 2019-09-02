@@ -84,7 +84,7 @@ let sub = buildFunction('-');
 sub(2, 1); // 1
 ```
 
-Real life example? Lodash templates generate functions that build strings out of templates using Function constructor. That's very well described 
+Real life example? [Microtemplating](https://johnresig.com/blog/javascript-micro-templating/) described by John Reising author of jQuery. 
 ```
 ## Function as 'classes'
 Functions are also constructors 
@@ -226,8 +226,8 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjM0MzA1MzIsLTE2MTg3MTY5NTgsLT
-IwMDI5ODE2OTIsNzU0NDU2ODMyLC0xMTE0NjA2NTU4LC0xNzY3
-MTM4MTUyLDY0MTE5MDkxMSwxOTEwNzIyNDA4LDYwMTEwOTkzNS
-wtMTEwNzEyNDI2MiwxMjQ3MTIyMzQwXX0=
+eyJoaXN0b3J5IjpbNTk0MzAxMjA1LC0xNjE4NzE2OTU4LC0yMD
+AyOTgxNjkyLDc1NDQ1NjgzMiwtMTExNDYwNjU1OCwtMTc2NzEz
+ODE1Miw2NDExOTA5MTEsMTkxMDcyMjQwOCw2MDExMDk5MzUsLT
+ExMDcxMjQyNjIsMTI0NzEyMjM0MF19
 -->
