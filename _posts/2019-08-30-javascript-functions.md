@@ -149,7 +149,7 @@ class User {
   
   // private ? 
   
-  private reverseName() {
+  reverseName() {
     return this.name.split('').reverse().join('');
   }
 }
@@ -157,10 +157,11 @@ class User {
 
 let user = new User('Joe');
 user.sayHi()
+user.reverseName(); // this still works! :(
 
 typeof User; // 'function' 
 ```
-
+Unfortunatly at this moment there is no private methods in Javascript. You still need to 
 Closures! This you must know
 
 ```javascript
@@ -229,8 +230,9 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODQwOTE0NCw1OTQzMDEyMDUsLTE2MT
-g3MTY5NTgsLTIwMDI5ODE2OTIsNzU0NDU2ODMyLC0xMTE0NjA2
-NTU4LC0xNzY3MTM4MTUyLDY0MTE5MDkxMSwxOTEwNzIyNDA4LD
-YwMTEwOTkzNSwtMTEwNzEyNDI2MiwxMjQ3MTIyMzQwXX0=
+eyJoaXN0b3J5IjpbMTE0MjgwMjk4OCwxMzU4NDA5MTQ0LDU5ND
+MwMTIwNSwtMTYxODcxNjk1OCwtMjAwMjk4MTY5Miw3NTQ0NTY4
+MzIsLTExMTQ2MDY1NTgsLTE3NjcxMzgxNTIsNjQxMTkwOTExLD
+E5MTA3MjI0MDgsNjAxMTA5OTM1LC0xMTA3MTI0MjYyLDEyNDcx
+MjIzNDBdfQ==
 -->
