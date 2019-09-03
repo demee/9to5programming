@@ -171,7 +171,9 @@ Above code does not execute in any of the current browsers.
 
 ## Closures
 
-Colsures, or coloquially, functions inside functions. This is bread and butter of Javascript programming, and you know to know them
+Colsures, or coloquially, functions inside functions. This is bread and butter of Javascript programming, and you know to know them! 
+
+Closures deserve article on their own, but I just mention them here since they are built using functions. 
 
 ```javascript
 function tagGeneratorFactory() {
@@ -239,9 +241,9 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDY3NTUzOTksLTE4NjczODUxMjksMT
-M1ODQwOTE0NCw1OTQzMDEyMDUsLTE2MTg3MTY5NTgsLTIwMDI5
-ODE2OTIsNzU0NDU2ODMyLC0xMTE0NjA2NTU4LC0xNzY3MTM4MT
-UyLDY0MTE5MDkxMSwxOTEwNzIyNDA4LDYwMTEwOTkzNSwtMTEw
-NzEyNDI2MiwxMjQ3MTIyMzQwXX0=
+eyJoaXN0b3J5IjpbMTAzNTczNzQzNiwtMTg2NzM4NTEyOSwxMz
+U4NDA5MTQ0LDU5NDMwMTIwNSwtMTYxODcxNjk1OCwtMjAwMjk4
+MTY5Miw3NTQ0NTY4MzIsLTExMTQ2MDY1NTgsLTE3NjcxMzgxNT
+IsNjQxMTkwOTExLDE5MTA3MjI0MDgsNjAxMTA5OTM1LC0xMTA3
+MTI0MjYyLDEyNDcxMjIzNDBdfQ==
 -->
