@@ -140,26 +140,22 @@ But but, javascript has `class` operator right? Why not use this. Well yes, that
 
 ```javascript
 class User {
-	
   constructor(name) {
     this.name = name;
+  }
+  reverseName() {
+    return this.name.split('').reverse().join('');
   }
   sayHi() {
     return 'Hello ' + this.reverseName();
   }
-  
-  
 }
 
-
-let user = new User('Joe');
-user.sayHi()
-user.reverseName(); // this still works! :(
-
-typeof User; // 'function' 
+let user = new User('Joe')
+user.sayHi();
 ```
 Unfortunatly at this moment there is no private methods in Javascript. You still need to 
-Closures! This you must know
+Closures! T
 
 ```javascript
 function tagGeneratorFactory() {
@@ -227,9 +223,9 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjczODUxMjksMTM1ODQwOTE0NCw1OT
-QzMDEyMDUsLTE2MTg3MTY5NTgsLTIwMDI5ODE2OTIsNzU0NDU2
-ODMyLC0xMTE0NjA2NTU4LC0xNzY3MTM4MTUyLDY0MTE5MDkxMS
-wxOTEwNzIyNDA4LDYwMTEwOTkzNSwtMTEwNzEyNDI2MiwxMjQ3
-MTIyMzQwXX0=
+eyJoaXN0b3J5IjpbLTI0MTMxNjE5LC0xODY3Mzg1MTI5LDEzNT
+g0MDkxNDQsNTk0MzAxMjA1LC0xNjE4NzE2OTU4LC0yMDAyOTgx
+NjkyLDc1NDQ1NjgzMiwtMTExNDYwNjU1OCwtMTc2NzEzODE1Mi
+w2NDExOTA5MTEsMTkxMDcyMjQwOCw2MDExMDk5MzUsLTExMDcx
+MjQyNjIsMTI0NzEyMjM0MF19
 -->
