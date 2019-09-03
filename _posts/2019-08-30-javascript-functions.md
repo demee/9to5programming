@@ -8,13 +8,13 @@ date: 2019-08-30 08:21 +0100
 ---
 # Almost all
 
-JavaScript is all about functions,  it should be called FunctionScript . Functions are just... functions, a reusable pieces of code. When we use them in cotext of object ( class ), we call them methods. We never call them routines in any case, please don't. 
+JavaScript is all about functions,  it should be called FunctionScript. Functions are just... functions, reusable pieces of code. When we use them in the context of an object ( class ), we call them methods. We never call them routines in any case, please don't. 
 
 
 ## Simple function
 Declaring simple function is straightforward in javascript. You don't need to call it main, you do not need a class around it. Just write a function declaration. 
 
-When that comes in all languages when we declare function, elements that we declare to be passed to such function are called parameters. When we call a function, whatever we pass a the time of calling, we call arguments. Why, I don't know... but if someone asks you on an interview it's better to know. 
+When that comes in all languages when we declare a function, elements that we declare to be passed to such function are called parameters. When we call a function, whatever we pass the time of call, we call arguments. Why? I don't know... but if someone asks you on an interview it's better to know. 
 
 
 ```javascript
@@ -32,7 +32,7 @@ functionName(argument1, argument2)
 There are few simple spacing rules when writing a function declaration in JavaScript. Two most important: 
 
 1. There should be **no** space after the name
-2. There should be a space after parenthesis, allways
+2. There should be a space after the parenthesis, always. 
 
 Those simple rules help us very quickly indentify if a function is named or anonymous. 
 ```javascript
@@ -43,7 +43,7 @@ Those simple rules help us very quickly indentify if a function is named or anon
 function functionName() {}
 ```
 
-Anonymous functions are simply functions without name, very useful in JavaScript when programming in functional way. 
+Anonymous functions are simply functions without a name, very useful in JavaScript when programming in a functional way. 
 
 ```javascript
 //        always a space
@@ -51,7 +51,7 @@ Anonymous functions are simply functions without name, very useful in JavaScript
 function () {/* code */}
 ```
 
-Anonymous function can be assined to a variable, and therefore get a name as well. 
+An anonymous function can be assigned to a variable, and therefore get a name as well. 
 
 ```javascript
 // Function expression
@@ -69,7 +69,7 @@ let user = {
 user.printName(); // 'Joe'
 ```
 
-There is also function constructor. This, yet another, way of creating function in javascript is useful for code generation. We can construct function body dynamically based on our program need and create a function on the fly. 
+There is also a function constructor. This, yet another, way of creating a function in javascript is useful for code generation. We can construct a function body dynamically based on our program need and create a function on the fly. 
 
 ```javascript
 let buildFunction = function (operation) {
@@ -84,7 +84,7 @@ let sub = buildFunction('-');
 sub(2, 1); // 1
 ```
 
-Real life example? [Microtemplating](https://johnresig.com/blog/javascript-micro-templating/) described by John Reising author of jQuery. 
+Real-life example? [Microtemplating](https://johnresig.com/blog/javascript-micro-templating/) described by John Reising author of jQuery. 
 
 ## Function as 'classes'
 Functions are also constructors and can be used to create instances of objects using `new` operator. 
@@ -105,7 +105,7 @@ user.welcomeUser();
 user.welcomeUser //public 
 
 ``` 
-Using above method all class members assinged to `this` are public. Can we have private functions? Yes we can. 
+Using the above method all class members assigned to `this` are public. Can we have private functions? Yes, we can. 
 
 ```javascript
 function Calculator(name) {
@@ -133,10 +133,10 @@ calc.calculate(2, 2, '-')
 
 calc.sum(2, 2); //💥Boom 💀sum is not a function error 
 ```
-What we used above is a closure, it's a way in Javascript to encapsulate part of the code inside function so only subset of the program have acces to them. For the rest of the code those methods do not exist. 
+What we used above is a closure, it's a way in Javascript to encapsulate part of the code inside a function so the only subset of the program has access to them. For the rest of the code, those methods do not exist. 
 
 ## Classes
-But but, javascript has `class` operator right? Why not use this. Well yes, that's what we would normaly do these days. But it's important to know that `class` operator is just a syntactic sugar, the output is still a function. 
+But, javascript has `class` operator right? Why not use this. Well yes, that's what we would normally do these days. But it's important to know that `class` operator is just syntactic sugar, the output is still a function. 
 
 ```javascript
 class User {
@@ -154,8 +154,8 @@ class User {
 let user = new User('Joe')
 user.sayHi();
 ```
-Unfortunatly at this moment there is no private methods in Javascript. You still need to 
-Closures! There is proposal for using `#` to mark functions and properties as private, but they are experimental and not avaliable at the moment: 
+Unfortunately, at this moment there are no private methods in Javascript. You still need to 
+Closures! There is a proposal for using `#` to mark functions and properties as private, but they are experimental and not available at the moment: 
 
 ```javascript
 class User {
@@ -171,9 +171,9 @@ Above code does not execute in any of the current browsers.
 
 ## Closures
 
-Colsures, or coloquially, functions inside functions. This is bread and butter of Javascript programming, and you know to know them! 
+Closures, or colloquially, functions inside functions. This is bread and butter of Javascript programming, and you know to know them! 
 
-Closures deserve article on their own, but I just mention them here since they are built using functions. 
+Closures deserve an article on their own, but I just mention them here since they are built using functions. 
 
 ```javascript
 function tagGeneratorFactory() {
@@ -241,9 +241,9 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTczNzQzNiwtMTg2NzM4NTEyOSwxMz
-U4NDA5MTQ0LDU5NDMwMTIwNSwtMTYxODcxNjk1OCwtMjAwMjk4
-MTY5Miw3NTQ0NTY4MzIsLTExMTQ2MDY1NTgsLTE3NjcxMzgxNT
-IsNjQxMTkwOTExLDE5MTA3MjI0MDgsNjAxMTA5OTM1LC0xMTA3
-MTI0MjYyLDEyNDcxMjIzNDBdfQ==
+eyJoaXN0b3J5IjpbLTg0MDQ2Njk4NiwxMDM1NzM3NDM2LC0xOD
+Y3Mzg1MTI5LDEzNTg0MDkxNDQsNTk0MzAxMjA1LC0xNjE4NzE2
+OTU4LC0yMDAyOTgxNjkyLDc1NDQ1NjgzMiwtMTExNDYwNjU1OC
+wtMTc2NzEzODE1Miw2NDExOTA5MTEsMTkxMDcyMjQwOCw2MDEx
+MDk5MzUsLTExMDcxMjQyNjIsMTI0NzEyMjM0MF19
 -->
