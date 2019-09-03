@@ -155,7 +155,17 @@ let user = new User('Joe')
 user.sayHi();
 ```
 Unfortunatly at this moment there is no private methods in Javascript. You still need to 
-Closures! T
+Closures! There is proposal for using `#` to mark functions and properties as private, but they are experimental and not avaliable at the moment: 
+
+```javascript
+class User {
+  #name; //private   
+  constructor (name) {
+	  this.name = name;
+  }
+  #revers
+}
+```
 
 ```javascript
 function tagGeneratorFactory() {
@@ -223,9 +233,9 @@ crateOfBeer.apply(this, [2,2])
 
 > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MTMxNjE5LC0xODY3Mzg1MTI5LDEzNT
-g0MDkxNDQsNTk0MzAxMjA1LC0xNjE4NzE2OTU4LC0yMDAyOTgx
-NjkyLDc1NDQ1NjgzMiwtMTExNDYwNjU1OCwtMTc2NzEzODE1Mi
-w2NDExOTA5MTEsMTkxMDcyMjQwOCw2MDExMDk5MzUsLTExMDcx
-MjQyNjIsMTI0NzEyMjM0MF19
+eyJoaXN0b3J5IjpbMTI4NDI5MzM2MSwtMTg2NzM4NTEyOSwxMz
+U4NDA5MTQ0LDU5NDMwMTIwNSwtMTYxODcxNjk1OCwtMjAwMjk4
+MTY5Miw3NTQ0NTY4MzIsLTExMTQ2MDY1NTgsLTE3NjcxMzgxNT
+IsNjQxMTkwOTExLDE5MTA3MjI0MDgsNjAxMTA5OTM1LC0xMTA3
+MTI0MjYyLDEyNDcxMjIzNDBdfQ==
 -->
