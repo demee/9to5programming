@@ -1,7 +1,8 @@
 ---
 layout: post
-title: javascript-functions
-date: 2019-08-30 08:21 +0100
+title: javascript-objects
+date: '2019-08-30 08:21 +0100'
+published: true
 ---
 
 Next Objects
