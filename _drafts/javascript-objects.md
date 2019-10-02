@@ -1,6 +1,6 @@
 ---
 layout: post
-title: javascript-objects
+title: Javascript Objects
 date: '2019-08-30 08:21 +0100'
 published: true
 ---
