@@ -7,11 +7,10 @@ tags:
 - " testing"
 
 ---
-Next Episode
+# There was javascript before NodeJS
 
-* Unit testing
-* Good practices
-* TDD, and why we _should_ do it
+
+
 
 ```javascript
 var x = 0
