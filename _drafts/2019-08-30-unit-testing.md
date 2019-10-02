@@ -14,5 +14,7 @@ Next Episode
 * TDD, and why we _should_ do it
 
 ```javascript
-	tabs vs spaces WAR    
+var x = 0
+
+assert(x, 0);
 ````
