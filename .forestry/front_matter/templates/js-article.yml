@@ -16,5 +16,5 @@ fields:
   default: []
   label: tags
 pages:
-- _posts/unit-testing-bash-scripts.md
+- _posts/2019-10-15-unit-testing-bash-scripts.md
 - _posts/2019-08-30-unit-testing.md
