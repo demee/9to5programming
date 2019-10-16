@@ -28,3 +28,12 @@ Here is an example. I wrote a function in bash that will fail my pipeline if cov
     assert_end
 ```
 
+Running the tests is very simple: 
+
+```bash 
+	➜  simple-coverage git:(master) ./tests.sh 
+	all 3 tests passed in 0.000s.
+```
+
+Now i can write more complex bash scripts and make sure they work as I expect them too. It's great! 
+
