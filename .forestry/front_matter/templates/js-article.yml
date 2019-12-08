@@ -16,5 +16,6 @@ fields:
   default: []
   label: tags
 pages:
+- _posts/arrow-functions-in-javascript-are-not-replacement-for-regular-functions.md
 - _posts/2019-10-15-unit-testing-bash-scripts.md
 - _posts/2019-08-30-unit-testing.md
