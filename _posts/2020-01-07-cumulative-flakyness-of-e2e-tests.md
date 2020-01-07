@@ -17,7 +17,7 @@ John noticed a few times that during development, his e2e tests sometimes fail w
 
 It happened a few times to Ed that he had to restart his build, just before the merge, because there were one or two tests that failed. "It just sometimes works most of the time. And I'm merging green build in the end." he thought.
 
-One day, a big opportunity arose; the project got a new, important client. Everyone got very exited and started to work, integrating new features.
+One day, a big opportunity arose; the project got a new, important client. Everyone got very excited and started to work, integrating new features.
 
 "I can't get any build to pass," said Jenna. "Me neither" John and scratched his head.
 
