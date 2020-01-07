@@ -27,4 +27,4 @@ One day, a big opportunity arose; the project got a new, important client. Every
 
 "We must change that. From today we always going to verify all the failures, even if they seem unimportant," said John.
 
-And the team got together, fixed flaky tests that were blocking new existing client, and never again ignored any failures that there were seeing during development. The new client was a massive success, and the team grew confidence. They can overcome any new challenges in the feature.
+And the team got together, fixed flaky tests that were blocking new client, and never again ignored any failures that there were seeing during development. The new client was a massive success, and the team grew confidence. They can overcome any new challenges in the feature.
