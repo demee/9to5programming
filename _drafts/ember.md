@@ -1,7 +1,8 @@
 ---
 layout: post
-title: javascript-functions
+title: Ember is the best
 date: 2019-08-30 08:21 +0100
+
 ---
 Ember: 
 

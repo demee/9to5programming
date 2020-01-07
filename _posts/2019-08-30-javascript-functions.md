@@ -1,10 +1,14 @@
 ---
 layout: post
 title: All I know about JavaScript functions
-categories:  [javascript]
-tags:  [javascript, functions]
+categories:
+  - javascript
+tags:
+  - javascript
+  - functions
 excerpt: Amost all
-date: 2019-08-30 08:21 +0100
+date: '2019-08-30 08:21 +0100'
+published: true
 ---
 # Almost all
 
@@ -209,13 +213,15 @@ for(i = 0; i < numbers.length; i++) {
 };
 ```
 
-IIFE (Immediately Invoked Function Expression) 
+IIFE (Immediately Invoked Function Expression).
 
 ```javascript
 (function (global) {
     global.globalVariable = 'You should never declare global variables';
 }(window || global))
 ```
+
+Real life examples? Look at jQuery code. 
 
 Calling functions
 

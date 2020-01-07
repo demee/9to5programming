@@ -1,16 +1,19 @@
 ---
 layout: post
-title: javascript-functions
+title: History of JavaScript testing
 date: 2019-08-30 08:21 +0100
+tags:
+- javascript
+- " testing"
+
 ---
+# There was javascript before NodeJS
 
-Next Episode 
 
-* Unit testing
-* Good practices
-* TDD, and why we *should* do it
 
-> Written with [StackEdit](https://stackedit.io/).
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTM5ODM4MzZdfQ==
--->
+
+```javascript
+var x = 0
+
+assert(x, 0);
+````

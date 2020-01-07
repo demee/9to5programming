@@ -1,9 +1,9 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: "/about/"
+
 ---
+All content of this website is my own, sweat and tears, creations. 
 
-Author: me
-
-for now nothing more to say :)
+Content cannot be reproduced or used elsewhere unless permission is given, but if you find this useful I would be surprised. 
