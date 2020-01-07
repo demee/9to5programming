@@ -1,8 +1,10 @@
 ---
-tags: []
+tags:
+- testing
+- programming
 layout: post
 title: Cumulative flakyness of e2e tests
-date: 
+date: 2020-01-07 00:00:00 +0000
 
 ---
 John, Ed, and Jenna were working on an exciting project. Everyone was caring about code quality and stability of the pipeline. They never merged anything without tests. John, Ed, and Jenna wanted the project to be enjoyable for a long time, and they aspired to be delivering features at a constant pace all the time. 
