@@ -2,13 +2,13 @@
 layout: post
 title: All I know about JavaScript functions
 categories:
-  - javascript
+- javascript
 tags:
-  - javascript
-  - functions
+- javascript
+- functions
 excerpt: Amost all
-date: '2019-08-30 08:21 +0100'
-published: true
+date: 2019-08-30 08:21 +0100
+
 ---
 # Almost all
 
