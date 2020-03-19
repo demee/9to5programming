@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Code of conduct
-date: 2019-08-30 07:21:01 +0000
+date: 2020-03-19 08:21:01 +0000
 
 ---
 You have your project, and you have contributors. This is an excellent success! But what you see is the contributions need some improvements before they can be added. You see the same mistakes happening over and over, and you wish you could document them all and provide a list of common errors to your contributors, so they don't make them every time. But can you? Can you document every mistake that can be committed in code?
