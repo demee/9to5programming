@@ -10,7 +10,7 @@ One can never master any programming language. Whether that JavaScript or Java, 
 
 By saying that I mean, that there are things that we should document, and there are things that we shouldn't.
 
-What we should document are project-related rules. For example, if your project was architected in a way that there is loads of inheritance, and that slows down development now, make a rule to not follow inheritance pattern ( so abundant in the project ) and to use composition instead etc.
+What we should document are project-related rules. For example, if your project was architected in a way that there is loads of inheritance, and that slows down development now, make a rule to not follow inheritance pattern ( so abundant in the project ) and to use composition instead.
 
 What we shouldn't document are standard clean code practices, like using meaningful names or not using two sets of nested loops and five if statements in one function. Those things are well documented online which we can refer and link to, and having access to safari books we can offer citations and links for further reading from there. There is no need for us to document what's already documented and available. 
 
