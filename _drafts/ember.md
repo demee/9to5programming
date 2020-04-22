@@ -14,7 +14,7 @@ export default ApplicationAdapter.extend({
     }
 }
 ```
-That always made sense to me. If we don't delete the `id` form the `query` object, it ends up being added to the URL's query params when requestiong the data.
+That always made sense to me. If we don't delete the `id` form the `query` object, `id` ends up being added to the URL's query params when requestiong the data.
 
 ```javascript
 	//somewhere in the model() hook
