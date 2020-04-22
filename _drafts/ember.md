@@ -4,7 +4,8 @@ title: Splitting hairs in Ember
 date: 2019-08-30 08:21 +0100
 
 ---
-Working for a while with EmberJS applications I have noticed a very common pattern that is used in adapter methods. And it goes like this: 
+Working for a while with EmberJS applications I have noticed a very common pattern that is used in adapter methods. And it goes like this:
+
 ```javascript
 export default ApplicationAdapter.extend({
     urlForQuery(query) {
@@ -14,23 +15,23 @@ export default ApplicationAdapter.extend({
     }
 }
 ```
-That always made sense to me. If we don't delete the `id` form the `query` object, `id` ends up being added to the URL's query params when requestiong the data.
+
+That always made sense to me. If we don't delete the `id` form the `query` object, `id` ends up being added to the URL's query params when requesting the data.
 
 ```javascript
 	//somewhere in the model() hook
 	this.get('store').query('user', { id: 100 })
 ```
 
-In this case, if we don't `delete query.id` it gets appened as a query param: 
+In this case, if we don't `delete query.id` it gets appended as a query param:
 
-```
-	GET http://example.com/user/100/settings?id=100
-```
-Extra query param is not a big deal in most of the cases. If the server is correctly implemented the additional query param will get ignored. But it creates cofusion and sometimes doesn't play well with backend ( for various, sometimes completly valid resons, which we won't disccuss here). 
+    	GET http://example.com/user/100/settings?id=100
 
-In those cases we want to delete redundant query paramters and above method is often used. It's even recommended in some [books](https://github.com/skaterdav85/ember-data-in-the-wild/blob/master/chapter5/app/adapters/contact.js) ( not affiliated link, and I am not even criticising the book as I didn't read it, it's probalby fine ). 
+Extra query param is not a big deal in most of the cases. If the server is correctly implemented the additional query param will get ignored. But it creates confusion and sometimes doesn't play well with backend ( for various, sometimes completely valid reasons, which we won't discuss here).
 
-But, what I do whan't to criticise is the approach. But before I do, let's look at the example: 
+In those cases, we want to delete redundant query parameters and the above method is often used. It's even recommended in some [books](https://github.com/skaterdav85/ember-data-in-the-wild/blob/master/chapter5/app/adapters/contact.js) ( not affiliated link, and I am not even criticising the book as I didn't read it, it's probably fine ).
+
+But, what I do want is to criticise is the approach. But before I do, let's look at the example:
 
 ```javascript
 export default ApplicationAdapter.extend({
@@ -41,4 +42,58 @@ export default ApplicationAdapter.extend({
 }
 ```
 
-In this case we may start wondering, why is the timesamp there, where is it used? We clearly see the code is modifying the input paramter, and possibly ( most liketly ) treating is as a return value. That is breaking the first of two ( yes, it's breaking one more, we will get there ) 
+In this case, we may start wondering, why is the timestamp there, where is it used? We clearly see the code is modifying the input parameter, and possibly ( most likely ) treating is as a return value.
+
+The example above is breaking two rules of clean code. Let's talk about the first one. From Uncle's bob [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM) ( chapter 2 ):
+
+> Using an output argument instead of a return value for a transformation is confusing. If a function is going to transform its input argument, the transformation should appear as the return value.
+
+By modifying the input object we are introducing side effects which are simply a code smell and bad practice. That's because the caller may not be aware that the parameter passed to the method has internally changed. That is usually not expected.
+
+But before we get into the second broken rule here, set pause for a moment. The code is working, and it's doing what we expect it to do. If it was wrong, it would break, right? Not necessarily, but let's find out why is it working as desired.
+
+Let's look at the stack trace of query operation, we are zooming in at URL building phase:
+
+![](/uploads/query.png)
+
+When we call the `query()` method it first calls `buildURL()` and then our implementation of `urlForQuery()`. The query parameter object is passed along in each call and it gets modified 3 methods away from the `query()` method that deals with... yes you guessed it the `query` object.
+
+It's the `query()` method that is responsible for building a query string that is appended to the URL, and only query method should deal with query methods. We can see that from [ember internal implementation ](https://github.com/emberjs/data/blob/v3.10.0/addon/adapters/rest.js#L552)
+
+```javascript
+
+query(store, type, query) {
+    let url = this.buildURL(type.modelName, null, null, 'query', query);
+   /* ... */ 
+    return this.ajax(url, 'GET', { data: query });
+  },
+```
+
+Which brings us to the second rule broken: single responsibility principle.
+
+In fact, if we were to name `urlForQuery()` correctly, it should be called `getUrlForQueryAandChangeQueryParams()`because it's making two things. Two different things, but it should do just one, return the URL.
+
+So what should be the correct code be? Well, we should be dealing with `query` parameters in `query()` method, and nowhere else. So our adapter should look like this:
+
+```javascript
+export default ApplicationAdapter.extend({
+    urlForQuery(query) {
+        const { id } = query;
+        return `/user/${id}/settings`;
+    },
+    query(store, type, query) {
+        let url = this.buildURL(type.modelName, null, null, 'query', query);
+
+		delete query.id; //manipulate the object 
+      
+        
+        return this.ajax(url, 'GET', { data: query }); //pass it along
+    },
+}
+```
+
+There is still side effect, but it doesn't matter because `query()` is the first one called? To be extra safe we probably should copy the `query` object and modify the copy, then pass the modified copy along.
+
+### To summarise
+
+This is probably hair-splitting. The above method works, and it is clear enough so everyone can follow. But on the other hand, the approach is not clean and may have consequences in the future (i.e methods can modify parameters of each other causing issues ). So we always should follow principles of clean code.
