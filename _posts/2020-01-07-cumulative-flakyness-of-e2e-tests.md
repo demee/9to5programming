@@ -3,7 +3,7 @@ tags:
 - testing
 - programming
 layout: post
-title: Cumulative flakiness of e2e suite
+title: Cumulative flakiness of test suite
 date: 2020-01-07T00:00:00.000+00:00
 
 ---
