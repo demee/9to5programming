@@ -1,30 +1,13 @@
 ---
 layout: post
-title: Javascript Objects
-date: 2019-08-30 08:21 +0100
+title: Will I be single forever?
+date: 2020-04-28 07:21:01 +0000
 
 ---
-#JavaScript objects reciepes 
+HI, I'm a parameter to a function, I happily go alone, and all I want is to be single. I hope I will be single forever. 
 
-How can one create a JavaScript object. There is more than one way. How many is there though? What can they be used for, and are some better than others? Let's find out.
+Why would I need another guy? Being two of us makes everything confusing. 
 
-## Simple object literal
-```javascript 
-    var user = {
-      name: 'Joe',
-      surname: 'Doe'
-    }
- ```   
-That's the simplest of its form, all is needed is just list of properties in JSON like structure. 
+For example in javascript assert.equal mixes me `expected` with `actual`
 
-## Object constructor 
-
-```javascript
-var user = new Object({
-
-})
-```
-* Creating objects
-* Destroying objects
-* Manipulating objects
-* Memory optimizations and memoory leaks
+Which is completely different from JUnit in java. Now everyone needs to remember which one is which. Poor you full stack developers. 
