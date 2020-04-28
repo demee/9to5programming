@@ -14,10 +14,6 @@ function () { /* function expression */ }
 () => { /* arrow function expression */ }
 ```
 
-I assume you would know the diffrence beetween those two. There are actually serveral but the most preminent one is the `this` biding. The latter is equivalent of calling: 
+I assume you would know the difference between those two because I won't explain it. 
 
-```javascript 
-(function () { /* function expression */)).bind(this)
-```
-
-Sure there are neuances in strict more etc, but it's all described in MDN page and I won't be getting into details now. 
+So here is the message, arrow functions are no longer cool. At this stage, they are as old as most of you out there, so if you use it for no reason you no longer cool. Learn something new, and cooler and start using the language properly. Thank you. Rant over. 
