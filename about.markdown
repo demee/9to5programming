@@ -4,6 +4,4 @@ title: About
 permalink: "/about/"
 
 ---
-All content of this website is my own, sweat and tears, creations. 
-
-Content cannot be reproduced or used elsewhere unless permission is given, but if you find this useful I would be surprised. 
+All content of this website is my own sweat, whining, tears, dreams, and hopes.
