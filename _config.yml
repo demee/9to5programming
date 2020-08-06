@@ -7,6 +7,6 @@ baseurl:
 url: 
 twitter_username: Demichowicz
 github_username: demee
-theme: minima
+theme: no-style-please
 plugins:
 - jekyll-menus
