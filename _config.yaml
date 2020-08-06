@@ -1,0 +1,9 @@
+---
+title: 9 to 5 programming
+email: sdemichowicz at google
+description: 'work 9 to 5, then sleep'
+twitter_username: Demichowicz
+github_username: demee
+theme: minima
+plugins:
+- jekyll-menus
