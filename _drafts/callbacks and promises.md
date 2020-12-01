@@ -19,9 +19,9 @@ Copy & paste to chrome console and you get
 [1]
 ```
 
-Looking at the code my first thought was, that is completly simple! 
+Looking at the code my first thought was, that is completly simple and I know how it works: 
 
-Chrome is running each line one by one. And the promise callbacks (then) are microtasks. 
+Chrome is running each line one by one. And the promise callbacks (the code in then) are microtasks. 
 
 More about microtasks: https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide
 
