@@ -65,11 +65,5 @@ Most simple answer here is, devtools takes the input from the console as string 
 
 In our case the command is [evaluateOnCallFrame](https://chromedevtools.github.io/devtools-protocol/tot/Debugger/#method-evaluateOnCallFrame). 
 
-So we send a piece of JS, expect it to be evaluated on V8 in context of currently opened website (yet we don't care about it in this case), and then we expect the result back sent over that WebSocket. That does not explain why we get wrong result. This should be no diffrent from running it on Node. 
-
-
-
-
-
-
+So we send a piece of JS, expect it to be evaluated on V8 in context of currently opened website (yet we don't care about it in this case), and then we expect the result back sent over that WebSocket. That does not explain why we get wrong result. This should be no diffrent from running it on Node. In the end they both using V8 but node uses [REPLServer](https://github.com/nodejs/node/blob/master/lib/repl.js#L474) where chrome dev tools uses devtools protocol  [built into V8](https://github.com/v8/v8/blob/dc712da548c7fb433caed56af9a021d964952728/src/inspector/v8-debugger-agent-impl.cc#L1229) to evaluthe expression. 
 
