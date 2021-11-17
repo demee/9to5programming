@@ -241,15 +241,3 @@ crateOfBeer.call(this, 2, 2);
 crateOfBeer.apply(this, [2,2])
 ```
 
-
-
-
-
-> Written with [StackEdit](https://stackedit.io/). 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDQ2Njk4NiwxMDM1NzM3NDM2LC0xOD
-Y3Mzg1MTI5LDEzNTg0MDkxNDQsNTk0MzAxMjA1LC0xNjE4NzE2
-OTU4LC0yMDAyOTgxNjkyLDc1NDQ1NjgzMiwtMTExNDYwNjU1OC
-wtMTc2NzEzODE1Miw2NDExOTA5MTEsMTkxMDcyMjQwOCw2MDEx
-MDk5MzUsLTExMDcxMjQyNjIsMTI0NzEyMjM0MF19
--->
