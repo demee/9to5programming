@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Will I be single forever?
-date: 2020-04-28 07:21:01 +0000
+title: I hope I will be single forever
+date: 2020-04-28T07:21:01.000+00:00
 
 ---
-HI, I'm a parameter to a function, I happily go alone, and all I want is to be single. I hope I will be single forever. 
+Hi, I'm a parameter to a function, I happily go alone, and all I want is to be single. I hope I will be single forever.
 
-Why would I need another guy? Being two of us makes everything confusing. 
+Why would I need another guy? Being two of us makes everything confusing.
 
-For example in javascript assert.equal mixes me `expected` with `actual`
+And if I got a pair? Maybe it makes sense, for sum, but I am not the sum. 
 
-Which is completely different from JUnit in java. Now everyone needs to remember which one is which. Poor you full stack developers. 
+I want to be alone. 
